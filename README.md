@@ -7,6 +7,16 @@ Gopa is a client written in GO for [OPA](https://openpolicyagent.org/).
 This example can be found on the [example_test.go](https://github.com/cycloidio/gopa/blob/master/example_test.go)
 
 ```go
+package main
+
+import (
+	"context"
+	"fmt"
+
+	"github.com/cycloidio/gopa"
+)
+
+func main() {
 	c, err := gopa.NewClient()
 	if err != nil {
 		// Handle error
@@ -53,6 +63,7 @@ allow_request { flag == true }
 	// Output:
 	// true
 	// false
+}
 ```
 
 ## Implementation
