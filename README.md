@@ -1,6 +1,6 @@
 # Gopa
 
-Gopa is a client written in GO for [OPA](https://openpolicyagent.org/).
+Gopa is a client written in Go for [OPA](https://openpolicyagent.org/).
 
 ## Usage
 
