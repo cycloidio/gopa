@@ -1,4 +1,6 @@
-# Gopa
+# Gopa 
+
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/cycloidio/gopa)](https://pkg.go.dev/github.com/cycloidio/gopa)
 
 Gopa is a client written in Go for [OPA](https://openpolicyagent.org/).
 
